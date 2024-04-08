@@ -1,0 +1,33 @@
+.cat{
+    background-color: #0171F9;
+    border-radius: 20px;
+    height: max-content !important;
+    margin-bottom: 90px !important;
+}
+.cat:hover{
+    background-color: #EE626B;
+    transition: 0.4s;
+}
+.cat img{
+    height: 200px;
+    border-radius: 20px 20px 20px 20px ;
+}
+.cat h4{
+    cursor: pointer;
+}
+@media screen and (max-width:480px) {
+    .cat img{
+        height: 400px!important;
+    }
+    .cat{
+        margin-bottom: 30px!important;
+    }
+}
+@media screen and (min-width:481px) and (max-width:780px) {
+    .cat img{
+        height: 400px!important;
+    }
+    .cat{
+        margin-bottom: 30px!important;
+    }
+}

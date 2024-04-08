@@ -1,0 +1,18 @@
+.footer{
+    /* position: absolute; */
+    bottom:0px !important;
+    margin: auto;
+    color: aliceblue;
+    margin-top: 60px!important;
+}
+.fff{
+    border-radius: 20px 20px 0px 0px;
+    background-image: url('../../images/footer-bg.jpg');
+    background-size: cover;
+    /* position: relative; */
+    margin: 0 auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

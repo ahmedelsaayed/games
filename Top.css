@@ -1,0 +1,24 @@
+.top h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top h1 button{
+    margin-right: 50px;
+}
+.top{
+    border-radius: 20px;
+    padding: 10px;
+    background-color:  #f2f6fc;
+}.game1{
+    width: 100%!important;
+}
+.top .cart{
+    display: flex;
+    flex-direction: column;
+}
+.top .btn:hover{
+    background-color: #0171F9;
+    outline: none;
+    border: none;
+}

@@ -1,0 +1,87 @@
+.w{
+    width: 40% !important;
+    margin: auto!important;
+    border-radius: 10px;
+}.in{
+    background-color: aliceblue !important;
+}
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 160px !important;
+}
+.A1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: #ddd;
+    padding:40px 10px;
+    left:5px;
+    border-radius: 20px;
+    bottom: -50px;
+}
+.A2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: #ddd;
+    padding:20px 10px;
+    right:15px;
+    border-radius: 20px;
+    top: 20px;
+}
+.email{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 25px;
+    position: relative;
+    margin-top: 20px;
+}
+.email button {
+    position: absolute;
+    right:0;
+    border-radius: 10px 10px 10px 10px ;
+    width: 30%;
+    cursor: pointer;
+}
+.email input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+@media screen and (max-width:480px) {
+    .About{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .A1{
+        position: relative;
+        width: 90%!important;
+    }
+    .A2{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: self-start;
+        width: 90%!important;
+        margin: auto!important;
+        margin-right: 0px!important;
+        margin-top: 40px!important;
+        height: 300px!important;
+
+    }.A2 .email{
+        width:80%!important;
+    } .About input{
+        text-align: left;
+    }
+}

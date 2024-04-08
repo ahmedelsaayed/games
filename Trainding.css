@@ -1,0 +1,100 @@
+.trainding{
+    margin-top: 150px!important;
+}
+.trainding h1{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.game1{
+    border-radius: 20px;
+    background-color:#ddd;
+    position: relative;
+}
+.game1 img{
+    border-radius:10px 10px 0px 0px ;
+}.cart{
+    display: flex;
+    margin-bottom: 10px;
+}
+.cart .bag{
+    position: absolute;
+    color: aliceblue;
+    border-radius:50%;
+    width: 29px;
+    height: 35px;    
+    right: 11px;
+    bottom: 1px;
+    font-size: 10px !important;
+    cursor: pointer;
+    color: red;
+}
+.game1:hover .bag   {
+    color: #007CF8;
+    transition: 0.3s;
+}
+.game1:hover h1   {
+    color: #007CF8;
+    transition: 0.3s;
+}.game1 {
+    width: 90% !important;
+}
+@media screen and (max-width:480px) {
+    .h{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-left: 0px !important;
+        margin: auto!important;
+        text-align: center;
+    }
+    .h h1{
+        margin-left: 0px !important;
+        margin: auto!important;
+    }
+    .h .ll{
+        margin-left: 0px!important;
+        margin-top: 20px;
+    }.pp{
+        text-align: center;
+        margin-left: 0px!important;
+    }.game1{
+        width: 90%!important;
+        margin: auto;
+        padding-bottom:2px;
+    }
+    .bag{
+        position: absolute;
+        bottom:16px !important;
+        right:20px !important;
+        
+
+    }
+}
+@media screen and (min-width:481px) and (max-width:780px) {
+    .h{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-left: 0px !important;
+        margin: auto!important;
+        text-align: center;
+    }
+    .h h1{
+        margin-left: 0px !important;
+        margin: auto!important;
+    }
+    .h .ll{
+        margin-left: 0px!important;
+        margin-top: 20px;
+    }.pp{
+        text-align: center;
+        margin-left: 0px!important;
+    }.game1{
+        width: 90%!important;
+        margin: auto;
+    }
+}
